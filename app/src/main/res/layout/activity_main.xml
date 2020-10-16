@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:padding="10dp"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    >
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn1"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn2"
+        android:background="@color/orange"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn3"
+        android:background="@color/yellow"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+       />
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn4"
+        android:background="@color/green"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+      />
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn5"
+        android:background="@color/turquoise"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn6"
+        android:background="@color/blue"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+       />
+
+    <Button
+        style="@style/KeyStyle"
+        android:id="@+id/btn7"
+        android:background="@color/purple"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+       />
+
+</LinearLayout>
+</LinearLayout>
