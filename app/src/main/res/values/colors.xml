@@ -8,5 +8,6 @@
     <color name="green">#2ecc71</color>
     <color name="blue">#3498db</color>
     <color name="purple">#9b59b6</color>
+    <color name="your_custom_color">#935478</color>
 
 </resources>
