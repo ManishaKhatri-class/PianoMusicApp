@@ -17,11 +17,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btn2;
     private Button btn3;
     private Button btn4;
-    private Button btn5;
     private Button btn6;
     private Button btn7;
     // Helpful Constants
-    private final int NR_OF_SIMULTANEOUS_SOUNDS = 7;
     private final float LEFT_VOLUME = 1.0f;
     private final float RIGHT_VOLUME = 1.0f;
     private final int NO_LOOP = 0;
@@ -46,10 +44,11 @@ public class MainActivity extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.btn2);
         btn3 = (Button) findViewById(R.id.btn3);
         btn4 = (Button) findViewById(R.id.btn4);
-        btn5 = (Button) findViewById(R.id.btn5);
+        Button btn5 = (Button) findViewById(R.id.btn5);
         btn6 = (Button) findViewById(R.id.btn6);
         btn7 = (Button) findViewById(R.id.btn7);
-
+         //ToDo: Action bar
+        getSupportActionBar().setTitle("MuSiCo - Play Music Like a Game!");
         // TODO: Create a new SoundPool
         final SoundPool mSound = new SoundPool(7, AudioManager.STREAM_MUSIC, 0);
 
